@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#091225" />
+  <meta name="description" content="SNOW SKY: uma aventura de plataforma 2D em pixel art. Acompanhe Maya e Luma rumo ao Pico Estrelado." />
+  <meta property="og:title" content="SNOW SKY — Uma aventura sob a aurora" />
+  <meta property="og:description" content="Uma jornada de precisão, coragem e luz em uma montanha congelada." />
+  <meta property="og:image" content="assets/capa-snow-sky.png" />
+  <link rel="icon" type="image/png" href="assets/luma.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>SNOW SKY — A aurora está esperando</title>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header" id="topo">
+    <div class="shell header-inner">
+      <a class="brand" href="#inicio" aria-label="SNOW SKY, ir ao início"><span class="brand-mark" aria-hidden="true">✦</span>SNOW<span>SKY</span></a>
+      <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Navegação principal">
+        <a href="#sobre">O jogo</a><a href="#mecanicas">Mecânicas</a><a href="#personagens">Personagens</a><a href="#historia">História</a>
+        <a class="nav-play" href="https://snow-skygame2.vercel.app/" target="_blank" rel="noopener noreferrer">Jogar <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="conteudo">
+    <section class="hero" id="inicio" aria-labelledby="hero-heading">
+      <div class="hero-art" role="img" aria-label="Pixel art de Maya planando com sua hoverboard sob uma aurora boreal, diante de montanhas congeladas"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-snow" aria-hidden="true"></div>
+      <div class="shell hero-content">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-star">✦</span> UMA AVENTURA ACIMA DAS NUVENS</p>
+          <h1 id="hero-heading">SNOW<br/><span>SKY</span><span class="title-spark" aria-hidden="true">✧</span></h1>
+          <p class="hero-type">Plataforma 2D em pixel art</p>
+          <p class="hero-description">A aurora se apagou. Uma montanha espera. Descubra até onde a coragem pode te levar.</p>
+          <div class="hero-actions"><a class="button primary" href="https://snow-skygame2.vercel.app/" target="_blank" rel="noopener noreferrer"><span aria-hidden="true">▶</span> Jogar agora</a><a class="button ghost" href="#sobre">Conheça o jogo <span aria-hidden="true">↓</span></a></div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#sobre"><span>EXPLORE O MUNDO</span><span class="scroll-line" aria-hidden="true"></span></a>
+      <div class="hero-coordinate" aria-hidden="true">PICO ESTRELADO / 01</div>
+    </section>
+
+    <section class="intro section" id="sobre" aria-labelledby="intro-heading">
+      <div class="shell intro-grid">
+        <div class="section-label"><span class="label-line"></span> 01 / O UNIVERSO</div>
+        <div class="intro-main reveal"><p class="overline">UM MUNDO DE GELO E LUZ</p><h2 id="intro-heading">Deslize pelo impossível.<br/><em>Encontre a luz.</em></h2><p>Em <strong>SNOW SKY</strong>, cada salto é uma escolha e cada pouso conta. Atravesse paisagens congeladas, domine o movimento da hoverboard boreal e siga o rastro de uma aurora que desapareceu.</p><div class="intro-chips" aria-label="Características do jogo"><span>✦ Pixel art</span><span>✦ Precisão</span><span>✦ Exploração</span></div></div>
+      </div>
+    </section>
+
+    <section class="mechanics section" id="mecanicas" aria-labelledby="mechanics-heading">
+      <div class="shell"><div class="section-heading reveal"><div><p class="section-label"><span class="label-line"></span> 02 / COMO JOGAR</p><h2 id="mechanics-heading">Movimento é <em>tudo.</em></h2></div><p>Uma jornada que pede agilidade, timing e a coragem de saber quando desacelerar.</p></div>
+        <div class="mechanics-grid">
+          <article class="mechanic-card reveal"><span class="card-number">01</span><div class="mechanic-icon board-symbol" aria-hidden="true"><span></span></div><h3>Hoverboard boreal</h3><p>Deslize sobre a neve e flutue entre plataformas com sua prancha movida pela energia da aurora.</p><span class="card-rule"></span></article>
+          <article class="mechanic-card reveal"><span class="card-number">02</span><div class="mechanic-icon rings-symbol" aria-hidden="true"><span></span><span></span></div><h3>Anéis boreais</h3><p>Encontre anéis luminosos pelo caminho e use-os para explorar novas possibilidades de movimento.</p><span class="card-rule"></span></article>
+          <article class="mechanic-card reveal"><span class="card-number">03</span><div class="mechanic-icon speed-symbol" aria-hidden="true"><span>››</span></div><h3>Controle e precisão</h3><p>Alterne entre velocidade e pousos cuidadosos. Às vezes, frear é o salto mais corajoso.</p><span class="card-rule"></span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="characters section" id="personagens" aria-labelledby="characters-heading">
+      <div class="shell"><div class="section-heading reveal"><div><p class="section-label"><span class="label-line"></span> 03 / COMPANHEIROS DE JORNADA</p><h2 id="characters-heading">Ninguém alcança o<br/><em>cume sozinho.</em></h2></div></div>
+        <div class="character-grid">
+          <article class="character-card maya-card reveal"><div class="character-scene"><div class="scene-stars" aria-hidden="true"></div><div class="hover-animation"><img class="character-sprite maya-sprite" src="assets/maya.png" alt="Sprite original de Maya, aventureira de cabelos castanhos e roupa azul" width="81" height="78" /><div class="hoverboard" aria-hidden="true"><span class="board-glow"></span></div></div><span class="ground-shadow" aria-hidden="true"></span></div><div class="character-info"><div><span class="character-tag">A AVENTUREIRA</span><h3>Maya</h3><p>Determinação sobre duas pernas e uma prancha flutuante. É ela quem decide trazer a aurora de volta.</p></div><span class="character-index">01 / 02</span></div></article>
+          <article class="character-card luma-card reveal"><div class="character-scene"><div class="luma-halo" aria-hidden="true"></div><img class="character-sprite luma-sprite" src="assets/luma.png" alt="Sprite original de Luma, pequena criatura de cristal brilhante" width="80" height="85" /><span class="luma-particle p1" aria-hidden="true">✦</span><span class="luma-particle p2" aria-hidden="true">✧</span></div><div class="character-info"><div><span class="character-tag">A COMPANHEIRA DE CRISTAL</span><h3>Luma</h3><p>Uma pequena luz no meio do frio. A nova parceira de Maya nesta jornada rumo ao Pico Estrelado.</p></div><span class="character-index">02 / 02</span></div></article>
+        </div>
+        <p class="animation-note">✧ Maya e a hoverboard flutuam em um loop animado feito com CSS.</p>
+      </div>
+    </section>
+
+    <section class="story section" id="historia" aria-labelledby="story-heading"><div class="story-backdrop" aria-hidden="true"></div><div class="shell story-grid"><div class="story-left reveal"><p class="section-label"><span class="label-line"></span> 04 / A HISTÓRIA</p><h2 id="story-heading">A aurora<br/>precisa <em>voltar.</em></h2><div class="story-decoration" aria-hidden="true">✦</div></div><div class="story-text reveal"><p>SNOW SKY é um jogo de plataforma 2D em pixel art que acompanha Maya, uma jovem aventureira em uma jornada por uma montanha congelada utilizando uma misteriosa prancha flutuante, a hoverboard boreal. Há três invernos, a Aurora Boreal deixou de brigar na vila, mergulhando a região em um frio silencioso. Determinada a recuperar essa luz, Maya parte em direção ao Pico Estrelado para reacender os antigos Marcos Boreais. Ao longo do caminho, ela encontra Luma — uma pequena criatura de cristal que se torna sua parceira —, enfrenta correntes de ar e desafios no Corredor dos Ventos onde aprende que frear também exige coragem.</p><span class="story-end" aria-hidden="true">✦ ✦ ✦</span></div></div></section>
+
+    <section class="inspiration section" id="inspiracoes" aria-labelledby="inspiration-heading"><div class="shell inspiration-inner reveal"><p class="section-label"><span class="label-line"></span> 05 / INSPIRAÇÕES</p><span class="quote-glyph" aria-hidden="true">“</span><blockquote><p id="inspiration-heading">Entre as grandes inspirações de <strong>SNOW SKY</strong>, está <em>Celeste</em> — uma referência em desafios de plataforma, precisão e jornadas que vão além do cume.</p></blockquote><span class="inspiration-signature">FEITO COM CARINHO PELOS JOGOS INDIE <span aria-hidden="true">✦</span></span></div></section>
+
+    <section class="closing" aria-label="Comece a aventura"><div class="shell closing-inner"><div><p class="eyebrow">✧ SUA JORNADA COMEÇA AQUI</p><h2>O céu está<br/><em>esperando.</em></h2></div><a class="button primary" href="https://snow-skygame2.vercel.app/" target="_blank" rel="noopener noreferrer">Jogar SNOW SKY <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="footer"><div class="shell footer-inner"><a class="brand" href="#inicio">✦ SNOW<span>SKY</span></a><span>Uma aventura sob a aurora boreal.</span><a href="#topo">Voltar ao topo ↑</a></div></footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
